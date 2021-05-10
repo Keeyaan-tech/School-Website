@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+        <div class="navbar-header"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#">Pathways School Noida</a> </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#campus_life">Campus Life</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#app">App</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#contactUs">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="announcement">
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();"> *** Feel free to ask queries on school.noida@pathways.in *** </marquee>
+    </div> <iframe width="600" height="360" src="https://www.youtube.com/embed/Rnup_b98CtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="page-header" id="campus_life">
+        <h2 class="text-capitalize">Campus Life</h2>
+
+        <div class="row">
+            <div class="travel_mainDiv"> <img class="img-responsive" src="photo.jpeg">
+                <h4 class="text-capitalize"><kbd>Primary Library</kbd></h4>
+                <hr>
+            </div>
+            <div class="travel_mainDiv"> <img class="img-responsive" src="foot.jpeg">
+                <h4 class="text-capitalize"><kbd>Football Field</kbd></h4>
+                <hr>
+            </div>
+            <div class="travel_mainDiv"> <img class="img-responsive" src="greeny.jpeg">
+                <h4 class="text-capitalize"><kbd>The Greenest Campus In North India</kbd></h4>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="page-header" id="achievements">
+        <h2 class="text-capitalize">school achievements</h2>
+    </div>
+    <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1"> National Horse Riding Competition <i class="fa fa-sort-desc"></i> </div>
+    <div id="school_achievement1" class="collapse">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID"> <img src="horsey.jpeg" class="img-responsive img-thumbnail"> </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+            <h5 class="text-success text-left text-capitalize">Pradyum Agarwal, 17, a student of Pathways School, Noida, bagged gold medal at the Junior National Equestrian Championship 2020 recently held at the Army Equestrian Centre, Dhaula Kuan, Delhi Cantt </h5>
+        </div>
+    </div>
+
+
+
+    <div class="page-header" id="app">
+        <h2 class="text-capitalize">Pathways App</h2>
+    </div>
+    <img src="code.png" id="code">
+
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="alumni">
+        <h2 class="text-capitalize ">Our Alumini</h2>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni1"> <img src="unnamed.jpeg" class="img-responsive">
+        <hr>
+        <p class="text-primary">Akshun Abhimanyu</p>
+    </div>
+
+    <div class="modal fade" id="school_alumni1">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Akshun Abhimanyu</h4>
+                </div>
+                <div class="modal-body"> <img src="unnamed.jpeg" class="img-responsive img_modal">
+                    <p class="p_modal">A mischievous child, Akshun had to be kept occupied after school in hobby classes like dancing and theatre. Fortunately, this created a spark of acting in him at an early age and he started working in educative street plays and performing theatre. His performance in Senior School's Annual Production in December 2010 "I, Van Gogh," as a lead actor, for which he received much critical acclaim, made his parents realizethat his acting skills were indeed good. Akshun graduated from Pathways World School in 2011.<br> <a href="https://www.pathways.in/static/noida_akshun_abhimanyu"><b>To Know More</b></a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni2"> <img src="AnubhavWadhwa19719-1.jpeg" class="img-responsive">
+        <hr>
+        <p class="text-primary">Anubhav Wadhwa</p>
+    </div> <!-- Modal -->
+    <div class="modal fade" id="school_alumni2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header"> <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Anubhav Wadhwa</h4>
+                </div>
+                <div class="modal-body"> <img src="AnubhavWadhwa19719-1.jpeg" class="img-responsive img_modal">
+                    <p class="p_modal">Anubhav Wadhwa (Batch of 2017) is a 20 year old Entrepreneur, Investor, Speaker, Published Researcher and 'Bottom of Pyramid' Sustainable Development Activist. He advocates and works for the cause of protecting the natural environment from various forms of destruction and degradation.
+
+                        <br> <a href="https://www.pathways.in/static/noida_anubhav_wadhwa"><b>To Know More</b></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+        <h2 class="text-capitalize ">Contact Us</h2>
+    </div>
+    <div id="map"> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28430.71882506814!2d77.3675686367257!3d28.54233051970582!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7f84b779fcf2a28c!2sPathways%20School%20Noida!5e0!3m2!1sen!2sin!4v1620650200172!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> </div>
+    <div id="details">
+        <img src="https://i.postimg.cc/RZMSc6hR/sp.png" class="img-responsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+        <h3>Principal Name: </h3>
+        <h4> Ms. Meenakshi Singhal </h4>
+        <div class="contact_1">
+            <a href="mailto:school.noida@pathways.in?Subject=Hi">
+                <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;school.noida@pathways.in</h5>
+            </a> <a href="#">
+                <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;+91 120 4617000</h5>
+            </a>
+        </div>
+    </div>
+    </div>
+    <div id="footer"></div>
+</body>
+</html>
